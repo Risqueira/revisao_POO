@@ -1,6 +1,6 @@
 # revisao_POO
 
-#Atividade 1
+# Atividade 1
 ```java
 
 package javaapplication121;
@@ -28,7 +28,7 @@ public class Aluno {
      }
 }
 ```
-#Atividade 2
+# Atividade 2
 
 ```java
 12. Crie uma classe ContaBancaria com atributos numero, titular e saldo. Adicione
