@@ -34,4 +34,40 @@ public class Aluno {
 12. Crie uma classe ContaBancaria com atributos numero, titular e saldo. Adicione
 métodos depositar() e sacar(). Obs.: Nos métodos avaliar se existe saldo para
 o saque e ao depositar verifique se o valor depositado não é negativo.
+
+
+package atividade_2poo;
+
+/**
+ *
+ * @author Henrique 01/09/2025 
+ */
+public class ContaBancaria {
+    
+    private String numero;
+    private String titulo;
+    private double saldo;
+    
+    public void depositar(double valor){
+        if(valor>0){
+            saldo= saldo+valor;
+            System.out.println("Deposito realizado "+valor);
+        }else{
+            System.out.println("Valor invalido para Deposito");
+        }
+    }
+    public void sacar(double valor){
+        if(valor>0){
+            if(saldo>=valor){
+                saldo=saldo-valor;
+                System.out.println("Saque realizado: "+valor);
+            }else{
+                System.out.println("Saldo insuficiente");
+            }
+        }else{
+            System.out.println("Valor de saque inválido");
+        }
+        
+    }
+}
 ```
