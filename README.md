@@ -1,5 +1,6 @@
 # revisao_POO
 
+#Atividade 1
 ```java
 
 package javaapplication121;
@@ -26,4 +27,11 @@ public class Aluno {
          System.out.println("curso:"+curso);
      }
 }
+```
+#Atividade 2
+
+```java
+12. Crie uma classe ContaBancaria com atributos numero, titular e saldo. Adicione
+métodos depositar() e sacar(). Obs.: Nos métodos avaliar se existe saldo para
+o saque e ao depositar verifique se o valor depositado não é negativo.
 ```
