@@ -117,7 +117,7 @@ import java.util.ArrayList;
 
 public class Biblioteca {
     
-    public ArrayList<Livro> Livro = new ArrayList<>();
+    public ArrayList<Livro> Livros = new ArrayList<>();
     
 }
 
