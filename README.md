@@ -93,3 +93,33 @@ public class Carro {
     }
 }
 ```
+# atividade 14
+
+```java
+package atividadepoo14;
+
+/**
+ * 14. Crie uma classe Livro com atributos titulo e autor. Faça uma associação
+ * com a classe Biblioteca.
+ *
+ * @author Henrique 02/09/2025
+ */
+public class Livro {
+    
+    private String titulo;
+    private String autor;
+
+
+package atividadepoo14;
+
+import java.util.ArrayList;
+
+public class Biblioteca {
+    
+    public ArrayList<Livro> Livro = new ArrayList<>();
+    
+}
+
+}
+
+```
