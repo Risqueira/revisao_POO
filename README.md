@@ -1,6 +1,6 @@
 # revisao_POO
 
-# Atividade 1
+# Atividade 11
 ```java
 
 package javaapplication121;
@@ -28,7 +28,7 @@ public class Aluno {
      }
 }
 ```
-# Atividade 2
+# Atividade 12
 
 ```java
 12. Crie uma classe ContaBancaria com atributos numero, titular e saldo. Adicione
@@ -68,6 +68,28 @@ public class ContaBancaria {
             System.out.println("Valor de saque inválido");
         }
         
+    }
+}
+```
+# atividade 13
+
+```java
+package atividadepoo13;
+
+/**
+ * 13. Implemente uma classe Carro que tenha atributos marca, modelo e ano. Crie
+ * um método ligar().
+ *
+ * @author Henrique 02/09/2025
+ */
+public class Carro {
+    
+    private String marca;
+    private String modelo;
+    private int ano;
+    
+    public void ligar(){
+        System.out.println("O carro "+ marca+ " "+ modelo+ "("+ano+") está ligado");
     }
 }
 ```
