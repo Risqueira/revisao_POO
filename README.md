@@ -124,3 +124,31 @@ public class Biblioteca {
 }
 
 ```
+# Atividade 15
+```java
+package poo15;
+
+/**
+ * 15. Implemente uma herança: uma classe Pessoa e duas subclasses Professor e
+ * Estudante.
+ *
+ * @author Henrique 03/09/2025
+ */
+public class Pessoa {
+
+    private String nome;
+    private int idade;
+}
+
+//subclasses abaixo, forma dentro de um arquivo class.
+class Professor extends Pessoa {
+
+    private String disciplina;
+}
+
+class Estudante extends Pessoa {
+
+    private String curso;
+}
+
+```
