@@ -196,3 +196,40 @@ public Gato(){
     }
 }
 ```
+
+# atividade 17
+
+```java
+package poo17;
+
+/**
+ * 17. Crie uma classe Funcionario que possua um método calcularSalario(). Crie
+ * uma subclasse Gerente que sobrescreva esse método.
+ *
+ * @author Henrique 03/09/2025
+ */
+public class Funcionario {
+    protected double hora;
+    protected double valorHora;
+    public Funcionario(){   
+}
+    public void calcularSalario(){
+        System.out.println("salario "+(hora+valorHora));
+    }
+}
+public class Gerente extends Funcionario{
+    private double adicional;
+    public Gerente(){
+        
+    }
+    public void calcularSalario(){
+        System.out.println("salario gerente "+(hora*valorHora+adicional));
+    }
+}
+
+```
+# atividade 18
+
+```java
+
+```
