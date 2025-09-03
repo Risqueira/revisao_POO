@@ -152,3 +152,51 @@ class Estudante extends Pessoa {
 }
 
 ```
+# Atividade 16
+```java
+package poo16;
+
+/**
+ * 16. Escreva um exemplo de polimorfismo usando uma classe Animal com métodos
+ * sobrescritos em Cachorro e Gato.
+ *
+ * @author Henrique 03/09/2025
+ */
+public class Animal {
+    public void fazerSom(){
+        System.out.println("O animal faz um som");
+    }
+}
+
+class Cachorro extends Animal{
+    @Override
+    public void fazerSom(){
+        System.out.println("O cachorro late");
+    }
+}
+class Gato extends Animal{
+    @Override
+    public void fazerSom(){
+        System.out.println("O gato mia");
+    }
+}
+```
+```java
+
+package poo16;
+
+public class POO16 {
+
+    public static void main(String[] args) {
+        
+        //polimorfismo
+        Animal a1 = new Cachorro();
+        Animal a2 = new Gato();
+        
+        //Chama cada versao de som que cada animal faz
+        a1.fazerSom();
+        a2.fazerSom();
+    }
+
+}
+```
