@@ -92,7 +92,9 @@ public class Carro {
     private String marca;
     private String modelo;
     private int ano;
-    
+
+public Caroo(){
+}
     public void ligar(){
         System.out.println("O carro "+ marca+ " "+ modelo+ "("+ano+") está ligado");
     }
