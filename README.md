@@ -139,21 +139,21 @@ package poo15;
  *
  * @author Henrique 03/09/2025
  */
-public class Pessoa {
+public class Pessoa { //SUPERCLASSE
 
     private String nome;
     private int idade;
 }
 
 //subclasses abaixo, forma dentro de um arquivo class.
-public class Professor extends Pessoa {
+public class Professor extends Pessoa { //SUBCLASSE
     private double Salario;
     public Professor(){
       super();  
 }
 }
 
-public class Estudante extends Pessoa {
+public class Estudante extends Pessoa { //SUBCLASSE
     private double nota;
     public Aluno(){
         super();
