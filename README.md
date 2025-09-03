@@ -48,6 +48,10 @@ public class ContaBancaria {
     private String numero;
     private String titulo;
     private double saldo;
+
+public ContaBancaria(){
+//consutor padrao
+}
     
     public void depositar(double valor){
         if(valor>0){
