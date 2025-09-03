@@ -146,14 +146,18 @@ public class Pessoa {
 }
 
 //subclasses abaixo, forma dentro de um arquivo class.
-class Professor extends Pessoa {
-
-    private String disciplina;
+public class Professor extends Pessoa {
+    private double Salario;
+    public Professor(){
+      super();  
+}
 }
 
-class Estudante extends Pessoa {
-
-    private String curso;
+public class Estudante extends Pessoa {
+    private double nota;
+    public Aluno(){
+        super();
+}
 }
 
 ```
