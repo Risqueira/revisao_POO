@@ -122,7 +122,7 @@ package atividadepoo14;
 
 public class Biblioteca {
     private String nome;
-    private Arraylist Livros<Livro>; //assossiaçao com a class Livro
+    private Arraylist <Livro> Livros; //assossiaçao com a class Livro
     public Biblioteca;
 }
 
