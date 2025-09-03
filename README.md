@@ -120,12 +120,10 @@ public class Livro {
 ```java
 package atividadepoo14;
 
-import java.util.ArrayList;
-
 public class Biblioteca {
-    // Associação: a Biblioteca possui vários Livros
-    public ArrayList<Livro> Livros = new ArrayList<>();
-    
+    private String nome;
+    private Arraylist Livros<Livro>; //assossiaçao com a class Livro
+    public Biblioteca;
 }
 
 }
