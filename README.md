@@ -145,7 +145,6 @@ public class Pessoa { //SUPERCLASSE
     private int idade;
 }
 
-//subclasses abaixo, forma dentro de um arquivo class.
 public class Professor extends Pessoa { //SUBCLASSE
     private double Salario;
     public Professor(){
@@ -172,40 +171,28 @@ package poo16;
  * @author Henrique 03/09/2025
  */
 public class Animal {
+    private String nome;
+public Animal(){
+}
     public void fazerSom(){
-        System.out.println("O animal faz um som");
+        System.out.println("O animal não fala");
     }
 }
 
-class Cachorro extends Animal{
-    @Override
+public class Cachorro extends Animal{
+    private double racao;
+public Cachorro(){
+}
     public void fazerSom(){
-        System.out.println("O cachorro late");
+        System.out.println("AU AU");
     }
 }
-class Gato extends Animal{
-    @Override
-    public void fazerSom(){
-        System.out.println("O gato mia");
-    }
+public class Gato extends Animal{
+    private double racao;
+public Gato(){
 }
-```
-```java
-
-package poo16;
-
-public class POO16 {
-
-    public static void main(String[] args) {
-        
-        //polimorfismo
-        Animal a1 = new Cachorro();
-        Animal a2 = new Gato();
-        
-        //Chama cada versao de som que cada animal faz
-        a1.fazerSom();
-        a2.fazerSom();
+    public void fazerSom(){
+        System.out.println("MEOW MEOW");
     }
-
 }
 ```
