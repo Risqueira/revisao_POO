@@ -262,14 +262,10 @@ package poo19;
  * @author henri
  */
 public class Cliente {
-
     private String nome;
-
     public Cliente() {
     }
-    public String to
-
-    String() {
+    public String to String() {
         return "nome:" + nome;
 
     }
