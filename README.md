@@ -232,4 +232,97 @@ public class Gerente extends Funcionario{
 
 ```java
 
+package poo18;
+
+/**
+ * 18. Faça uma classe Produto com atributos nome e preco. Crie um método que
+ * aplique desconto.
+ *
+ * @author Henrique 
+ */
+public class Produto {
+    private String nome;
+    private double preco;
+    public Produto(){
+}
+    public void aplicarDesconto(double desconto){
+        System.out.println("o valor com desconto é R$"+(preco-preco+(desconto/100)) );
+    }
+}
+
+```
+# atividade 19
+```java
+package poo19;
+
+/**
+ * 19. Implemente uma classe ContaCorrente que utilize composição com uma classe
+ * Cliente.
+ *
+ * @author henri
+ */
+public class Cliente {
+
+    private String nome;
+
+    public Cliente() {
+    }
+    public String to
+
+    String() {
+        return "nome:" + nome;
+
+    }
+}
+
+public class contaCorrente {
+
+    private int numero;
+    private double saldo;
+    private Cliente cliente;
+
+    public contaCorrente(int numero, double saldo, Cliente cliente) {
+        this.numero = numero;
+        this.saldo = saldo;
+        this.cliente = cliente;
+    }
+}
+```
+
+# atividade 20
+
+```java
+package poo20;
+
+/**
+ * 20. Modele um sistema simples de locadora de filmes usando classes Filme,
+ * Cliente e Locacao.
+ *
+ * @author henrique
+ */
+public class Filme {
+    private String nome;
+    private int ano;
+    public Filme(){
+        
+    }
+}
+
+public class Cliente{
+    private String nome;
+    private String email;
+    private String telefone;
+    public Cliente(){
+        
+    }
+}
+
+public class Locacao{
+    private String data;
+    private Cliente cliente;
+    private Filme filme;
+    public Locacao(){
+        
+    }
+}
 ```
